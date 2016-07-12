@@ -1,0 +1,75 @@
+Lecture 1:
+
+Analysis: Theoretical study of computer-program performance and resource usage, emphasis on performance here.
+
+What's more important than performance?
+Maintainability, Correctness, Simplicity, Cost, Stability, Memory, Security, Scalability, User Friendliness
+
+
+So why Performance?
+It DOES affect User-Friendliness, and sometimes it MUST be fast enough. Also, kinda fun.
+
+Sorting
+
+Insertion:
+Go through, if less, move it to the right of the nearest number it's largest that's to the left of it.
+Run Time:N
+Generally want an upperbound, so it has a max time for the user.
+
+Expected Time over all inputs: Average time of all inputs size of n times probability an input will be in it.
+But you don't know how many times an input will be in it, so you need an assumption of statistical distribution
+of inputs.
+
+Best case is bogus because 1) It never happens 2) You're done already.
+
+Relative Speed: Different on different machines
+Absolute Speed: Same on different machines
+
+Big Idea of Algorithms:
+Asymptotic Analysis
+	-Ignore Machine dependant constants
+	-Look at growth of running time instead of running time.
+Asymptotic Notation:
+Theta Notation, drop low-order terms, ignore leading constants.
+Ex: 3n^3+90n^2-5n+6064=Theta(n^2)
+Drop 3, ignore all n's that aren't the highest.
+
+As n approaches inf, N^2 beats N^3 algorithms. No matter what. Even on different speed computers, no matter
+what previous numbers are, no matter what leading coefficient is.
+There are some cases where the smaller n algorithms catch up REALLY late (The meeting point is called No)
+
+Analysis of insertion: Summation of j to n, theta(j).
+So evaluates as theta(n^2). Arithmatic series is what this is. Ah, power series.
+
+Theta is a weak notation, so you REALLY need to understand it, because it doesn't cut out very well.
+
+Is Insertion Sort fast?
+For small, it's moderately fast.
+For large, no. Not at all.
+
+Merge Sort:
+You know what it is. Divide in 2, divide in 2, divide in 2, then when it's only 1 or 2, sort.
+Recursively send those back and sort.
+It's O(n) on n total elements
+
+T(N) Total
+Theta(1), a bit of an abuse, just means constant, for if only 1 element.
+2T(n/2) for recursive sorting a[1...n/2] and a[n/2...n]. Sloppy, but it's okay.
+Theta(N) for merging 2 sorted lists.
+
+Recurrence:
+
+So T(n) = {theta(1) if n=1, or 2T(n/2)+theta(n) if n > 1
+
+Recursion Tree: T(n)=2(n/2)+cn, const c>d
+
+T(n)= cn is T(n/2) and T(n/2) = cn is cn/2 and cn/2, and each have a t(n/4) = ... and so on.
+
+Keep going down until you hit a leaf, that's theta(1).
+
+The height of the tree is log(n), aka lg(n) for shorter hand. It has n leaves.
+Level by level, you have cn work per level on the tree, with theta n on the level with the leaves.
+So the total amoutn would be (cn)lg(n)+theta(n), which would equal theta(nlg(n)), which is asymptotically faster
+than theta(n^2).
+
+So merge is faster than insertion with a sufficiently large input.
