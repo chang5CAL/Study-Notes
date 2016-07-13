@@ -1,0 +1,2 @@
+Lecture 2 is mostly just information on math.
+Power Series help figure out the time of a algorithm.
