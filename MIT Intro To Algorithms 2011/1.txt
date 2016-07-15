@@ -1,0 +1,54 @@
+Theme of this lecture: Similar Problems can have different complexity.
+
+NOTE: Look up Polynomial time
+
+P is a class of problems solvable in polynomial time.  O(n^k) for some constant k
+NP is a class of problems with a solution that is verifiable in polynomial time.
+	-Ex: Hamiltonian. To determine, just find a cycle that can contain each vertex once.
+	-NP-Complete is a NP problem that, once a solution is found, all solutions are found. 
+Knowing what type of problem is good for estimation of how long it takes to make an algorithm.
+
+Interval Scheduling:
+Generally, have resources and requests.
+Requests need time and takes resources.
+Each request takes an interval of time.
+s(i) is start time, f(i) finish time.
+s(i) < f(i).
+They're both non-null.
+
+Two requests, i and j, are compatible if no overlap.
+
+You want to get a compatible subset of requests/intervals of max size.
+
+So how do you solve this?
+
+One method: Apply a greedy strategy/heuristic (algorithm)
+Claim: We can solve this problem using a greedy algorithm.
+Definition of Greedy Algorithm: A myopic (Short-sighted) algorithm that processes one input at a time and doesn't
+look ahead. (Note, can work in reverse, either most or least)
+
+Greedy is generally efficient, because it's only looking at a small part at a time.
+
+Greedy Interval Scheduling: 
+1) Use a simple rule to select a request, i.
+2) Reject all requests that are incompatible with i.
+3) Repeat until all requests are processed.
+
+The greedy algorithm of JUST taking the smallest doesn't work because there may be a small one between two large
+compatible one.
+
+So what you can do is take each request, and find all their incompatible requests. Then take the one with the
+minimum incompatibles.
+
+(Personal note: You may be able to do a reverse Dijkstra's algorithm, with lowest weight, with each node
+linked to all compatible node, then find the greatest sum between them and find which Dijkstra's returns
+the highest. It'd be really inefficient to do, though)
+
+The solution is actually to suggest the one with earliest finish time. It will always give the max number of 
+requests, at the cost of taking a lot of time.
+
+Proof: I don't think I need to know the proof. It would be good to see,though.
+Used proof by induction, though.
+
+Weighted Interval Scheduling
+~1 Hour mark
