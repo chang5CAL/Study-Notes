@@ -48,7 +48,32 @@ The solution is actually to suggest the one with earliest finish time. It will a
 requests, at the cost of taking a lot of time.
 
 Proof: I don't think I need to know the proof. It would be good to see,though.
-Used proof by induction, though.
+Used proof by induction, though. Looks like a lot of Discrete Math here.
 
 Weighted Interval Scheduling
-~1 Hour mark
+Each request has a weight, w(i), and you want to schedule a subset of requests with max weight.
+
+Again, Greedy algorithms!
+
+You'll want to find the subproblems, so you can use dynamic problems in order to maximize efficiency.
+Basically:
+Define subproblems, R* = {request j in R| s(j) >= x}
+x=f(i) (f is finishing time, see above)
+R^(f(i)) requests later than f(i).
+It's NOT the set of requests compatible with f(i), it's the set of requests LATER. This is important for later.
+
+So if n is the number of requests,
+#subproblems = n, and you want to solve each subproblem once, and memorize it.
+It'll be #subproblem*time to solve each (assumes order 1 for lookups, and each recursibve calls are o(1))
+
+Going to try DP Guessing:
+Try each request i as a possible first request.
+Remember: You only need to face forward, because you've already done the ones before it.
+opt(imal)(R) = max 1<=i<=n(Wi(weight) + opt(R^(f(i))) If it was 1, use greedy.
+Complexity: n^2
+
+Non-Identical Machines:
+T={Between T1 and TN)
+Weight = i for all requests
+BUT Q(i) is a set of machines the requests can run on.
+If you show they can work, it's NP Complete, which means K <= n requests be scheduled?
