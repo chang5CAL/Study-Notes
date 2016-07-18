@@ -6,3 +6,5 @@ Alternatively, only do that to one, and subtract one from the array, returning f
 is 0 pre-calculation, and true if you are finished and all elements are 0.
 Of course, always make sure they're the same length.
 Another way is to put all characters in a vector and then sort it.
+
+Note: Copy by hand if answer is not found in one hour.
