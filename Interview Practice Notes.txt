@@ -8,3 +8,7 @@ Of course, always make sure they're the same length.
 Another way is to put all characters in a vector and then sort it.
 
 Note: Copy by hand if answer is not found in one hour.
+
+This anagram problem frustrates me. I get what to do, take everything, sort as vector, compare vectors,
+if it's the same (Which, if they're anagrams, they will be), store that and if not done already, store the
+initial string.
