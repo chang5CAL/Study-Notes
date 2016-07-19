@@ -12,3 +12,6 @@ Note: Copy by hand if answer is not found in one hour.
 This anagram problem frustrates me. I get what to do, take everything, sort as vector, compare vectors,
 if it's the same (Which, if they're anagrams, they will be), store that and if not done already, store the
 initial string.
+
+Also of note, don't use Lintcode's IDE, use your own, because bugtesting is a major pain when you can't
+cout anything.
