@@ -15,3 +15,11 @@ initial string.
 
 Also of note, don't use Lintcode's IDE, use your own, because bugtesting is a major pain when you can't
 cout anything.
+
+Note: Looks like there's not much problem with simply throwing an "In case of edge case (Like a "" string) if
+statement", if there aren't too many edge cases that have this problem. If there are, you may need to
+reevaluate your algorithm.
+
+Looks like there's actually a substring function (And if not, not hard to write one), which would have 
+helped my append string function (Just make something a substring). There's no guarenteed way to avoid 
+analyzing everything (Barring a ""), so it will always be O(nm). 
