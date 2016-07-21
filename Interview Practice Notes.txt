@@ -22,4 +22,8 @@ reevaluate your algorithm.
 
 Looks like there's actually a substring function (And if not, not hard to write one), which would have 
 helped my append string function (Just make something a substring). There's no guarenteed way to avoid 
-analyzing everything (Barring a ""), so it will always be O(nm). 
+analyzing everything (Barring a ""), so it will always be O(nm).
+
+Remove Element: Simple enough, just run a for loop through the array, check if it's the element, remove it
+if so, move up one if not. The biggest catch is if you forget it adjusts as you go, so you'll go 1, remove 1,
+2, which was 3, and not check the actual second element.
