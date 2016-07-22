@@ -34,3 +34,8 @@ the anctual answer.
 My solution is basically a for loop that started at the beginning, then a second one that went from there to the
 end. If at any point, the sum of parts equal 0, return the two points, else move the first one up and
 move the second until the end, and so on. This tests every adjacent combination.
+
+Remove Duplicates from sorted: If it's not already sorted, sort it! Because that makes this way easier.
+Start at 1, so you can just look backwards one, if it exists. If it doesn't, then you have a single vector
+and can't backtrack, so you can't have duplicates. Done. If it does, then you can look back, and if it
+matches, just delete the value, otherwise, move forward by one. Same as remove element.
