@@ -42,3 +42,7 @@ matches, just delete the value, otherwise, move forward by one. Same as remove e
 
 Merge Sorted Arrays: The give away is kind of in the name. It's basically the second half of a mergesort,
 assembling two different sorted arrays, so all you need to do is measure via merge sort.
+
+Multiply all excluding self: All I need to do is make a temp array/vector, and fill it up with multiplication
+from all other values except the current position, and then return the finished array.
+
