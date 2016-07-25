@@ -44,5 +44,10 @@ Merge Sorted Arrays: The give away is kind of in the name. It's basically the se
 assembling two different sorted arrays, so all you need to do is measure via merge sort.
 
 Multiply all excluding self: All I need to do is make a temp array/vector, and fill it up with multiplication
-from all other values except the current position, and then return the finished array.
+from all other values except the current position, and then return the finished array. There might be a shortcut
+if you just make it check for two 0's, or at least just one 0, where it will ignore every value (Just autofill
+with 0) except for the 0, or just make an entire vector of 0's if there's two 0's. Don't forget to make it 
+push_back a 1 to start with, so it has something to work with!
 
+First Missing Positive: First, sort the vector. Then make a for loop, starting at the first value, going up
+until the i value doesn't match the vector's value at that position. Then just return i.
