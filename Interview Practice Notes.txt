@@ -50,4 +50,6 @@ with 0) except for the 0, or just make an entire vector of 0's if there's two 0'
 push_back a 1 to start with, so it has something to work with!
 
 First Missing Positive: First, sort the vector. Then make a for loop, starting at the first value, going up
-until the i value doesn't match the vector's value at that position. Then just return i.
+until the i value doesn't match the vector's value at that position. Then just return i. Remove all but one
+non-unique value. Oh, here's the problem: this problem treats 0 oddly. 0 can not exist for all this problem
+cares.
