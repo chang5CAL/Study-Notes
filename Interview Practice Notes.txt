@@ -60,4 +60,4 @@ finding the sum of all and keeping track of the nearest (Via comparing abs(targe
 UNLESS the comparison is 0.
 Assumes there is at least 3 elements.
 
-Sum of 3: Do the same as above, but store the 3 if it's a 0, only.
+Sum of 3: Do the same as above, but store the 3 if it's a 0, only. And go through the whole thing every time.
