@@ -53,3 +53,9 @@ First Missing Positive: First, sort the vector. Then make a for loop, starting a
 until the i value doesn't match the vector's value at that position. Then just return i. Remove all but one
 non-unique value. Oh, here's the problem: this problem treats 0 oddly. 0 can not exist for all this problem
 cares.
+
+Sum of 3 Closest: Need 3 for loops. Basically, first stands on the 0th position, second on 1, third on 2.
+Move third until it hits the last one, then do the second to the second to last, and third to third to last,
+finding the sum of all and keeping track of the nearest (Via comparing abs(target-top) vs. abs(target-current)),
+UNLESS the comparison is 0.
+Assumes there is at least 3 elements.
