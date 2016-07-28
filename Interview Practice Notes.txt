@@ -60,4 +60,7 @@ finding the sum of all and keeping track of the nearest (Via comparing abs(targe
 UNLESS the comparison is 0.
 Assumes there is at least 3 elements.
 
+2 Sum: Shouldn't be too hard. Have two for loops, one starts at 0, the other at i+1 (i being the first index),
+and keep going until it finds a match. Once it does, put both index(+1) in a vector and return that vector.
+
 Sum of 3: Do the same as above, but store the 3 if it's a 0, only. And go through the whole thing every time.
