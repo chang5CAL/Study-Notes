@@ -64,3 +64,9 @@ Assumes there is at least 3 elements.
 and keep going until it finds a match. Once it does, put both index(+1) in a vector and return that vector.
 
 Sum of 3: Do the same as above, but store the 3 if it's a 0, only. And go through the whole thing every time.
+
+Partition Array: Not sure what I'm supposed to be doing here? From what I get, sort the array, then return the
+value for which the value at i is less than k. This is a simple task (Just sort it via vector's sort), though
+there's one oddity: It seems if there's way too many values, the program's sort doesn't work. I just
+made an "In case of over 1000 return size" if, but that's sloppy. On the other hand, this is more the fault
+of lint code's compiler, since larger numbers just crash it.
