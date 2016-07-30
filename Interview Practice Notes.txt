@@ -57,13 +57,15 @@ cares.
 Sum of 3 Closest: Need 3 for loops. Basically, first stands on the 0th position, second on 1, third on 2.
 Move third until it hits the last one, then do the second to the second to last, and third to third to last,
 finding the sum of all and keeping track of the nearest (Via comparing abs(target-top) vs. abs(target-current)),
-UNLESS the comparison is 0.
+UNLESS the comparison is 0. Note that I set the first max to an unreasonably high number so I can do comparisons,
+though I could just set it to the first element to be scanned and just go from there.
 Assumes there is at least 3 elements.
 
 2 Sum: Shouldn't be too hard. Have two for loops, one starts at 0, the other at i+1 (i being the first index),
 and keep going until it finds a match. Once it does, put both index(+1) in a vector and return that vector.
 
-Sum of 3: Do the same as above, but store the 3 if it's a 0, only. And go through the whole thing every time.
+Sum of 3: Do the same as sum of 3 closest, but store the 3 if it's a 0, only. And go through the whole thing 
+every time, storing each.
 
 Partition Array: Not sure what I'm supposed to be doing here? From what I get, sort the array, then return the
 value for which the value at i is less than k. This is a simple task (Just sort it via vector's sort), though
