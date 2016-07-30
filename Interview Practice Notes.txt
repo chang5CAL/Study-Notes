@@ -68,7 +68,12 @@ Sum of 3: Do the same as sum of 3 closest, but store the 3 if it's a 0, only. An
 every time, storing each. Since it's a vector of vectors, you need to store the 3 numbers in to a vector first,
 then store that vector in the vector that's returned.
 
-Also of note: When doing this problem, apparently -1,1,0 does NOT equal -1,0,1. Yeah, I dunno.
+Also of note: When doing this problem, apparently -1,1,0 does NOT equal -1,0,1. Another problem
+is checking for uniqueness. So what I need to do is make sure that 1) The values are in sorted order, 2) make 
+sure the vector hasn't been used yet. To do this, first, insert all values as usual, then just sort it. Then
+check that vector with all vectors in the vector of vectors, on a 0 to 0, 1 to 1 and 2 to 2 (Which is fine since
+you put them there to begin with), and if they are not the exact same (They have to equal 0 to get to this point)
+add it in.
 
 Partition Array: Not sure what I'm supposed to be doing here? From what I get, sort the array, then return the
 value for which the value at i is less than k. This is a simple task (Just sort it via vector's sort), though
