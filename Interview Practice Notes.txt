@@ -82,5 +82,5 @@ made an "In case of over 1000 return size" if, but that's sloppy. On the other h
 of lint code's compiler, since larger numbers just crash it.
 
 ===============================
-Main lesson for part 2: Sorting is good. So is making a list only unique. For loops are also helpful.
+Main lesson for part 2: Sorting is good. So is making a list only unique. For loops are also helpful.git a
 ===============================
