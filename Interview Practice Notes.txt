@@ -84,5 +84,9 @@ made an "In case of over 1000 return size" if, but that's sloppy. On the other h
 of lint code's compiler, since larger numbers just crash it.
 
 ===============================
-Main lesson for part 2: Sorting is good. So is making a list only unique. For loops are also helpful.git a
+Main lesson for part 2: Sorting is good. So is making a list only unique. For loops are also helpful. Same mostly
+applies for part 1, but also KMP.
 ===============================
+
+Sqrt(x): My initial attempt was to take a number, multiply by itself once, then add one to it if it's not greater
+than the target. This would work, except it's too slow for when the value is too high.
