@@ -93,4 +93,7 @@ than the target. This would work, except it's too slow for when the value is too
 be to divide a number, starting at x, by 2, until it's square is less than x, then start adding one to it until
 it's as high as it'll get.
 
-
+Search Insert Position: Shouldn't be too different from first missing. Just need to find the value closest to 
+it, then if it's larger or smaller and place it as such. Storing everything in a binary tree would probably
+be much simpler, but that's a bit too much effort unless binary trees already exist and have an easy
+insertion method.
