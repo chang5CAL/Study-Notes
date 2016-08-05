@@ -89,4 +89,8 @@ applies for part 1, but also KMP.
 ===============================
 
 Sqrt(x): My initial attempt was to take a number, multiply by itself once, then add one to it if it's not greater
-than the target. This would work, except it's too slow for when the value is too high.
+than the target. This would work, except it's too slow for when the value is too high. My next solution will
+be to divide a number, starting at x, by 2, until it's square is less than x, then start adding one to it until
+it's as high as it'll get.
+
+
