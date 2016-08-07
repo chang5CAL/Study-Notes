@@ -97,3 +97,8 @@ Search Insert Position: Shouldn't be too different from first missing. Just need
 it, then if it's larger or smaller and place it as such. Storing everything in a binary tree would probably
 be much simpler, but that's a bit too much effort unless binary trees already exist and have an easy
 insertion method.
+
+Search a 2D Matrix: my first instinct for this is to look through the first element of each row, until
+I find a matrix that's first element is greater than x. Then look at the one before it (Unless it's the first,
+then return whatever it is that means the number isn't there). Then just brute force look through the array
+(There might be a faster way for this. Maybe check which end is closer, since it's already sorted.)
