@@ -102,3 +102,6 @@ Search a 2D Matrix: my first instinct for this is to look through the first elem
 I find a matrix that's first element is greater than x. Then look at the one before it (Unless it's the first,
 then return whatever it is that means the number isn't there). Then just brute force look through the array
 (There might be a faster way for this. Maybe check which end is closer, since it's already sorted.)
+
+First Position: O(log(n)) might be a bit difficult here. It might be easier to stick everything in a binary
+tree, with the middle(Ish) value as the root)
