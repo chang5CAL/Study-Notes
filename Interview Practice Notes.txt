@@ -106,5 +106,8 @@ then return whatever it is that means the number isn't there). Then just brute f
 First Position: O(log(n)) might be a bit difficult here. It might be easier to stick everything in a binary
 tree, with the middle(Ish) value as the root)
 
+Wood Cut: Perform binary search, until you find a (integer) value that, when the sum of L is divided by it,
+it equals k.
+
 Binary Search Algorithm: Assuming the array is sorted, go to the middle of it, and compare it to the 
 desired value. Then go left if target is less than or right if greater than. Repeat until it's found.
