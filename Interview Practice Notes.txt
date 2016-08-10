@@ -109,5 +109,10 @@ tree, with the middle(Ish) value as the root)
 Wood Cut: Perform binary search, until you find a (integer) value that, when the sum of L is divided by it,
 it equals k.
 
+Minimum in rotated sorted array: Just sort it again. If I'm not allowed to do that, then I could just compare
+the value at 0 to all values in the array. Alternatively, compare each value with the previous value, starting
+at 1, and when the value of the one on the right is less than the one on the left, compare the current right 
+value with the 0th value.
+
 Binary Search Algorithm: Assuming the array is sorted, go to the middle of it, and compare it to the 
 desired value. Then go left if target is less than or right if greater than. Repeat until it's found.
