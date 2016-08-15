@@ -1,0 +1,3 @@
+Javascript: Basics, Selector ID
+Jquery: Documentation (Put in a .ready function)
+Bootstrap: Basics
