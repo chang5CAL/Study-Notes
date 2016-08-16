@@ -1,3 +1,5 @@
 Javascript: Basics, Selector ID
+	Simple enough, looks like regular non-html coding.
 Jquery: Documentation (Put in a .ready function)
+	Not bad, just need to remember $(selector).(function or attribute)
 Bootstrap: Basics
