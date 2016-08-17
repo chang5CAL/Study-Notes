@@ -3,3 +3,4 @@ Javascript: Basics, Selector ID
 Jquery: Documentation (Put in a .ready function)
 	Not bad, just need to remember $(selector).(function or attribute)
 Bootstrap: Basics
+Angular: Again, figure out the basics, then see if you can figure something out about Angular2
