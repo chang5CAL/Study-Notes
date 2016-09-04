@@ -6,3 +6,5 @@ Bootstrap: Basics
 Angular: Again, figure out the basics, then see if you can figure something out about Angular2
 Angular2 and Jasmin Testing: Testing's actually fairly simple. Just import the classes and run them, then
 compare them to the expected result. Not sure what karma's for though
+
+Learn Node, jobhunt
