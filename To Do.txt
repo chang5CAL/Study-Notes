@@ -14,3 +14,14 @@ Also read through CtCI and code the questions.
 Learn Angular2 more, to make a scraper.
 
 Also learn Node, MongoDB and Express.js for the full MEAN skillset
+
+CRUD:
+Create
+Read
+Update
+Delete
+
+req is in
+res is out
+
+1,5,7
