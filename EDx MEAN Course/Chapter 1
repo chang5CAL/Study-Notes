@@ -2,3 +2,6 @@ Chapter 1: Fundamentals
 Node is the server, and stores things in MongoDB.
 Mongo is the base, so we start with that.
 mongo (shell) and mongod (server) are the important ones
+
+Gulp and Mocha works well with testing.
+Mongo is interfaced with Mongoose, MongoDB holds JSON objects
