@@ -1,0 +1,3 @@
+Mongoose is used to interact with Mongo.
+
+Mongo is fairly simple to use, just make sure whatever you input in to it can't be infinitely used.
