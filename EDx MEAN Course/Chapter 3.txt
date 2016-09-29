@@ -2,3 +2,5 @@ Chapter 3:
 
 npm is great for loading various libraries to do your tasks.
 REST API is for asking other APIs for info
+
+You can also use consoles for APIs to test their REST returns.
