@@ -1,8 +1,3 @@
-Javascript: Basics, Selector ID
-	Simple enough, looks like regular non-html coding.
-Jquery: Documentation (Put in a .ready function)
-	Not bad, just need to remember $(selector).(function or attribute)
-Bootstrap: Basics
 Angular: Again, figure out the basics, then see if you can figure something out about Angular2
 Angular2 and Jasmin Testing: Testing's actually fairly simple. Just import the classes and run them, then
 compare them to the expected result. Not sure what karma's for though
@@ -21,7 +16,7 @@ Read
 Update
 Delete
 
-req is in
-res is out
+req(uest) is in
+res(ponse) is out
 
 1,5,7
