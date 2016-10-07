@@ -22,3 +22,17 @@ res(ponse) is out
 1,5,7
 
 Try doing Angular in Comic Updates
+Specifically:
+Main page
+ Header
+ Main Content: Latest updates
+ Sidebar: Search and other helpful links
+
+Routes:
+ Latest Updates
+ Comic Page
+ Genre's Page
+ Listing of all comics
+
+Service:
+ Make 3 http calls to the rest api we defined already
