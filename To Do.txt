@@ -36,3 +36,5 @@ Routes:
 
 Service:
  Make 3 http calls to the rest api we defined already
+
+Use tutorial and documentation as needed
