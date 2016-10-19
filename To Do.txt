@@ -38,3 +38,5 @@ Service:
  Make 3 http calls to the rest api we defined already
 
 Use tutorial and documentation as needed
+
+Implement Bootstrap with Angular, either via Bootstrap UI or manually.
