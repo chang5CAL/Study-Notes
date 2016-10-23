@@ -38,3 +38,5 @@ Service:
 Use tutorial and documentation as needed
 
 Implement Bootstrap with Angular, either via Bootstrap UI or manually.
+
+Should make a blog/website to display projects
