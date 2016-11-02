@@ -1,5 +1,5 @@
 Angular2 and Jasmin Testing: Testing's actually fairly simple. Just import the classes and run them, then
-compare them to the expected result. Not sure what karma's for though
+compare them to the expected result.
 
 Learn Node, jobhunt: Use the NOT Wordpress search, 2-3 hours in the morning, then check per hour.
 
