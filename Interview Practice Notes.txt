@@ -2,7 +2,7 @@ KMP: When looking for most matching strings in a nested for loop, move the
 
 For anything about sorting, use timestamp.
 
-Remember: X change X, and pointers make things convoluted
+Remember: X change X, and pointers make things convoluted. Just stick with returning, don't use pointers.
 
 Anagrams: To find if an object is an anagram, simply put all characters in to a 26(27 for space) array, and
 sort it. Repeat to the compared object, then check if they are the same.
