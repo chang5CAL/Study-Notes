@@ -12,3 +12,5 @@ res(ponse) is out
 Should make a blog/website to display projects
 
 Review interview practice
+
+Also, apply to internships
