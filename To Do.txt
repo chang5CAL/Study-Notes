@@ -12,4 +12,5 @@ res(ponse) is out
 Should make a blog/website to display projects
 
 Also, apply to internships
-Use the school career's lookup.
+
+Continue MIT's Intro to Algorithms.
