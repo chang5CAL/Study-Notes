@@ -124,3 +124,6 @@ at the one before then end. Shouldn't be too hard.
 Binary Search Algorithm: Assuming the array is sorted, go to the middle of it, and compare it to the 
 desired value. Then go left if target is less than or right if greater than. Repeat until it's found.
 
+For Behavior Interviews:
+Don't be afraid to tell stories. Make sure your goals align with their's. Research their company ahead of
+time.
