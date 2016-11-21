@@ -126,4 +126,4 @@ desired value. Then go left if target is less than or right if greater than. Rep
 
 For Behavior Interviews:
 Don't be afraid to tell stories. Make sure your goals align with their's. Research their company ahead of
-time.
+time. Make sure both of you are on the same page for topics!
