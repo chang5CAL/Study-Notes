@@ -1,6 +1,6 @@
-Chapter 3:
 
-npm is great for loading various libraries to do your tasks.
-REST API is for asking other APIs for info
-
-Integrate the html templates in to the angular app-component 
+CRUD:
+Create
+Read
+Update
+Delete
