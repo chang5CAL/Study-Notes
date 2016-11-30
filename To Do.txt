@@ -6,3 +6,5 @@ Remember that IT and Software Developer Internships are typically different, but
 Continue MIT's Intro to Algorithms (2011). This is especially important during the break. You might just want
 to watch it without notes unless it seems REALLY important. The first 2 should be fine without notes, though.
 Artificial Intelligence and Cryptography might be interesting.
+
+Finish CS Project
