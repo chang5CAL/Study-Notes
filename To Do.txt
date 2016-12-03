@@ -4,8 +4,9 @@ Also, apply to internships. http://portlandtech.org/ apply to every one under te
 Read the listing in case.
 
 Continue MIT's Intro to Algorithms (2011). This is especially important during the break. You might just want
-to watch it without notes unless it seems REALLY important. The first 2 should be fine without notes, though.
-Artificial Intelligence and Cryptography might be interesting.
+to watch it without notes unless it seems REALLY important. 
+
+Artificial Intelligence and Cryptography might be interesting, but algorithms is the most important.
 
 Finish CS Project
 
