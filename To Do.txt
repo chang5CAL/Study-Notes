@@ -7,6 +7,3 @@ Continue MIT's Intro to Algorithms (2011). This is especially important during t
 to watch it without notes unless it seems REALLY important. 
 
 Artificial Intelligence and Cryptography might be interesting, but algorithms is the most important.
-
-Finals week, make sure to study. After that, ALgorithms course for MIT. Even if it fills, you can still take
-MIT's course and then use THAT
