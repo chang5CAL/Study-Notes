@@ -1,5 +1,3 @@
 Should make a blog/website to display projects
 
-Artificial Intelligence and Cryptography might be interesting, but algorithms is the most important.
-
-Look at Washington (Seattle) and California (Silicon Valley), too
+Look at Washington (Seattle) and California (Silicon Valley)
