@@ -1,3 +1,5 @@
 Should make a blog/website to display projects
 
 Look at Washington (Seattle) and California (Silicon Valley)
+
+Review interview questions.
