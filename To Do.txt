@@ -7,4 +7,3 @@ internshipfiner.com
 
 
 Review interview questions.
-Get a grasp of Karma and Jasmine
