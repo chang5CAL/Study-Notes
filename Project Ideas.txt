@@ -1,3 +1,9 @@
 Browser Add-Ons
 	-Twitter Extender: Add-on that automatically adds a link at the end of tweets so users can have longer
 				tweets.
+
+Mobile Cardboard VR:
+	-No idea what to make yet, but, I know a lot of VR games I find are really just gimmicks. I don't
+		think most of them are actually fun, because if you took the VR out they'd just be really
+		boring games. Maybe I'm being too harsh, or the magnet controls aren't very good. I don't know.
+		I'd like to make a game that's actually fun, though, instead of just novel.
