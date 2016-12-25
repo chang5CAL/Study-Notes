@@ -3,7 +3,5 @@ Browser Add-Ons
 				tweets.
 
 Mobile Cardboard VR:
-	-No idea what to make yet, but, I know a lot of VR games I find are really just gimmicks. I don't
-		think most of them are actually fun, because if you took the VR out they'd just be really
-		boring games. Maybe I'm being too harsh, or the magnet controls aren't very good. I don't know.
-		I'd like to make a game that's actually fun, though, instead of just novel.
+	-Sword-Fight Simulator: Look at the opponent's sword. It's a "How high can you go" game. Starts with a
+		few swings and increase how many they swing over time.
